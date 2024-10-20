@@ -1,0 +1,147 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2ZH9AN in circuit pmos (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_SDE6B7 in circuit pmos (0)(4 instances)
+
+Cell pmos (1) disconnected node: D2
+Class pmos (0):  Merged 15 parallel devices.
+Class pmos (1):  Merged 1 parallel devices.
+Cell pmos (1) disconnected node: D2
+Subcircuit summary:
+Circuit 1: pmos                            |Circuit 2: pmos                            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (16->1)            |sky130_fd_pr__pfet_01v8 (8->7) **Mismatch* 
+Number of devices: 1 **Mismatch**          |Number of devices: 7 **Mismatch**          
+Number of nets: 1 **Mismatch**             |Number of nets: 16 **Mismatch**            
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: pmos                            |Circuit 2: pmos                            
+
+---------------------------------------------------------------------------------------
+Net: d1                                    |Net: D1                                    
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
+  sky130_fd_pr__pfet_01v8/(1|3) = 2        |                                           
+  sky130_fd_pr__pfet_01v8/4 = 1            |                                           
+                                           |                                           
+(no matching net)                          |Net: net7                                  
+                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |                                           
+(no matching net)                          |Net: net9                                  
+                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |                                           
+(no matching net)                          |Net: net11                                 
+                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |                                           
+(no matching net)                          |Net: net13                                 
+                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |                                           
+(no matching net)                          |Net: net14                                 
+                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |                                           
+(no matching net)                          |Net: net1                                  
+                                           |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |                                           
+(no matching net)                          |Net: net8                                  
+                                           |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |                                           
+(no matching net)                          |Net: net10                                 
+                                           |  sky130_fd_pr__pfet_01v8/2 = 1            
+                                           |                                           
+(no matching net)                          |Net: net6                                  
+                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 1        
+                                           |                                           
+(no matching net)                          |Net: net2                                  
+                                           |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |                                           
+(no matching net)                          |Net: net12                                 
+                                           |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |                                           
+(no matching net)                          |Net: net15                                 
+                                           |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |                                           
+(no matching net)                          |Net: net16                                 
+                                           |  sky130_fd_pr__pfet_01v8/4 = 1            
+                                           |                                           
+(no matching net)                          |Net: VDD                                   
+                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 6        
+                                           |  sky130_fd_pr__pfet_01v8/4 = 3            
+                                           |  sky130_fd_pr__pfet_01v8/2 = 2            
+                                           |                                           
+(no matching net)                          |Net: D5                                    
+                                           |  sky130_fd_pr__pfet_01v8/(1|3) = 2        
+                                           |  sky130_fd_pr__pfet_01v8/2 = 1            
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: pmos                            |Circuit 2: pmos                            
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__pfet_01v8_2ZH9AN_0 |Instance: sky130_fd_pr__pfet_01v8:M1       
+  (1,3) = (4,4)                            |  (1,3) = (11,1)                           
+  2 = 4                                    |  2 = 1                                    
+  4 = 4                                    |  4 = 11                                   
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__pfet_01v8:M5       
+                                           |  (1,3) = (11,1)                           
+                                           |  2 = 1                                    
+                                           |  4 = 11                                   
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__pfet_01v8:M3       
+                                           |  (1,3) = (11,11)                          
+                                           |  2 = 11                                   
+                                           |  4 = 11                                   
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__pfet_01v8:M4       
+                                           |  (1,3) = (11,11)                          
+                                           |  2 = 11                                   
+                                           |  4 = 1                                    
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__pfet_01v8:M6       
+                                           |  (1,3) = (1,1)                            
+                                           |  2 = 1                                    
+                                           |  4 = 1                                    
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__pfet_01v8:M7       
+                                           |  (1,3) = (1,1)                            
+                                           |  2 = 1                                    
+                                           |  4 = 1                                    
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__pfet_01v8:M8       
+                                           |  (1,3) = (3,3)                            
+                                           |  2 = 3                                    
+                                           |  4 = 1                                    
+                                           |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+
+Subcircuit pins:
+Circuit 1: pmos                            |Circuit 2: pmos                            
+-------------------------------------------|-------------------------------------------
+d1                                         |(no pin, node is net6)                     
+(no matching pin)                          |D1                                         
+(no matching pin)                          |D2                                         
+(no matching pin)                          |D5                                         
+(no matching pin)                          |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists for pmos and pmos altered to match.
+Device classes pmos and pmos are equivalent.
+
+Final result: Top level cell failed pin matching.

@@ -1,0 +1,52 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729438891
+<< metal1 >>
+rect 74 1152 84 1232
+rect 2056 1152 2066 1232
+rect 233 640 239 692
+rect 291 640 297 692
+rect 346 650 1074 678
+rect 1136 650 1864 678
+rect 1913 640 1919 692
+rect 1971 640 1977 692
+rect 78 106 88 186
+rect 2060 106 2070 186
+<< via1 >>
+rect 84 1152 2056 1232
+rect 239 640 291 692
+rect 1919 640 1971 692
+rect 88 106 2060 186
+<< metal2 >>
+rect 84 1232 2056 1242
+rect 84 1142 2056 1152
+rect 239 692 291 698
+rect 1919 692 1971 698
+rect 291 682 340 684
+rect 291 650 1919 682
+rect 291 648 340 650
+rect 239 634 291 640
+rect 1919 634 1971 640
+rect 88 186 2060 196
+rect 88 96 2060 106
+use inverter  x1
+timestamp 1729436918
+transform 1 0 107 0 1 97
+box -54 10 369 1136
+use inverter  x2
+timestamp 1729436918
+transform 1 0 898 0 1 97
+box -54 10 369 1136
+use inverter  x3
+timestamp 1729436918
+transform 1 0 1689 0 1 97
+box -54 10 369 1136
+<< labels >>
+flabel via1 728 1188 732 1188 0 FreeSans 160 0 0 0 VDD
+port 10 nsew
+flabel via1 648 138 652 138 0 FreeSans 160 0 0 0 GND
+port 11 nsew
+flabel via1 1934 662 1938 662 0 FreeSans 160 0 0 0 out
+port 13 nsew
+<< end >>
